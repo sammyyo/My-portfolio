@@ -1,0 +1,74 @@
+#contact {
+  position: absolute;
+  width: 100%;
+  height: 0 auto;
+  background-size: auto;
+  #main-footer {
+    margin: 10em 3em;
+    height: 35%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    p {
+      width: 50%;
+      margin-right: 4em;
+      line-height: 1.2em;
+      font-size: 1.2em;
+      font-family: calibri;
+      letter-spacing: 1px;
+    }
+    a {
+      text-decoration: none;
+      font-family: "PT Mono", monospace;
+      font-size: 1.4em;
+      margin: 3em;
+      padding: 0.5em 0.5em;
+      background: #1e4ae2;
+      color: #fff;
+      border-radius: 10px 10px;
+    }
+    a:hover {
+    }
+  }
+  #footer1 {
+    width: 100%;
+    height: 35%;
+    background: url("../images/footer.png") no-repeat;
+    background-size: 100% 100%;
+    .container-contact {
+      padding-top: 4%;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      .contact1,
+      a {
+        text-decoration: none;
+        font-family: "PT Mono", monospace;
+        font-size: 1.4em;
+        margin: 3em;
+        padding: 0.5em 0.5em;
+        background: #fff;
+        color: #000000;
+        border-radius: 10px 10px;
+      }
+      .contact2 p {
+        width: 60%;
+        margin-left: 50%;
+        line-height: 1.9em;
+        font-family: calibri;
+        letter-spacing: 1px;
+        color: #fff;
+        .fas {
+          padding-right: 5px;
+        }
+      }
+    }
+    span {
+      position: absolute;
+      padding-top: 0.5em;
+      top: 100%;
+      right: 50%;
+      color: #fff;
+    }
+  }
+}

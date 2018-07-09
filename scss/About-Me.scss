@@ -1,0 +1,39 @@
+#myexperiences {
+  position: relative;
+  background: url("../images/About-me.png") no-repeat;
+  background-size: 100% 110%;
+  .experiences {
+    margin: 0 20%;
+    padding-top: 5%;
+    h1 {
+      padding: 5px;
+      font-size: 2em;
+      margin: 0;
+      font-family: calibri;
+      text-align: center;
+      color: #fff;
+    }
+    .experience0 {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 3em;
+      margin-bottom: 5%;
+      .experience1,
+      .experiences2 {
+        padding-right: 5em;
+        strong {
+          line-height: 3px;
+          color: #fff;
+          font-size: 1em;
+          letter-spacing: 1px;
+        }
+        p {
+          color: #fff;
+          line-height: 1.9em;
+          font-family: calibri;
+          letter-spacing: 1px;
+        }
+      }
+    }
+  }
+}

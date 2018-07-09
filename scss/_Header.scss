@@ -1,0 +1,100 @@
+$styleMargin: 3em;
+$styleColor: hsl(0, 0%, 0%);
+$header: #fff;
+$headerBg: hsla(226, 77%, 50%, 0.863);
+
+#header-page {
+  position: relative;
+  margin-top: 2em 2em;
+  border-bottom: 1px solid $styleColor;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 100;
+  background: url("../images/HeaderBg.png") no-repeat;
+  .logo {
+    margin-left: 4.3%;
+    font-size: 1.5em;
+    font-family: calibri;
+    color: $header;
+    text-decoration: none;
+  }
+  .main-nav ul li {
+    margin-right: 3em;
+    display: inline-block;
+  }
+  ul li a {
+    text-decoration: none;
+    font-family: "PT Mono", monospace;
+    font-size: 1.4em;
+    margin: $styleMargin;
+    color: $header;
+  }
+}
+.conntainer {
+  margin-right: 5px;
+  padding-right: 0.5em;
+  display: inline-block;
+  cursor: pointer;
+  transform: width 2s;
+}
+
+.bar1,
+.bar2,
+.bar3 {
+  width: 2.3em;
+  height: 5px;
+  background-color: $styleColor;
+  margin: 6px 0;
+  background: $header;
+}
+
+#Intro-page {
+  position: relative;
+  background: url("../images/HeaderBg1.png") no-repeat;
+  background-size: 100% 55%;
+  //z-index: 100;
+
+  .main-sam {
+    width: 50%;
+    position: absolute;
+    top: 44%;
+    left: 20%;
+
+    .p1 {
+      margin: 0;
+      position: absolute;
+      bottom: 50%;
+      left: 20%;
+      font-size: 2.5em;
+      font-family: calibri;
+      transform: skewY(-9deg);
+      color: $header;
+    }
+    .p2 {
+      margin: 0;
+      position: absolute;
+      transform: skewY(-10deg);
+      top: 50%;
+      left: 20%;
+      font-size: 2.5em;
+      font-family: calibri;
+    }
+  }
+  .images {
+    float: right;
+    margin: 10% 15% 0 0;
+    top: 50%;
+    right: 50%;
+    img {
+      overflow: hidden;
+      border-radius: 50%;
+      border: 4px solid #fff;
+      width: 70%;
+    }
+  }
+} // end of header
