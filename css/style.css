@@ -1,6 +1,6 @@
 #header-page {
   position: relative;
-  margin-top: 2em 2em;
+  padding: 0.5em 0 0.5em 0;
   border-bottom: 1px solid black;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -19,7 +19,7 @@
   background: url("../images/HeaderBg.png") no-repeat; }
   #header-page .logo {
     margin-left: 4.3%;
-    font-size: 1.5em;
+    font-size: 1.8em;
     font-family: calibri;
     color: #fff;
     text-decoration: none; }
@@ -29,27 +29,39 @@
   #header-page ul li a {
     text-decoration: none;
     font-family: "PT Mono", monospace;
-    font-size: 1.4em;
-    margin: 3em;
+    font-size: 1.5em;
+    margin: 2em;
     color: #fff; }
-
-.conntainer {
-  margin-right: 5px;
-  padding-right: 0.5em;
-  display: inline-block;
-  cursor: pointer;
-  -webkit-transform: width 2s;
-  -ms-transform: width 2s;
-  transform: width 2s; }
-
-.bar1,
-.bar2,
-.bar3 {
-  width: 2.3em;
-  height: 5px;
-  background-color: black;
-  margin: 6px 0;
-  background: #fff; }
+  #header-page .sidenav {
+    height: 25%;
+    width: 0;
+    position: fixed;
+    z-index: 100;
+    top: 0;
+    right: 0;
+    overflow-x: hidden;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+    margin: 0.7em 0; }
+    #header-page .sidenav .sidenav a {
+      margin: 0 0.7em;
+      padding: 0.5em 0.5em 0.5em 2.7em;
+      text-decoration: none;
+      display: block;
+      -webkit-transition: 0.3s;
+      -o-transition: 0.3s;
+      transition: 0.3s; }
+    #header-page .sidenav img {
+      width: 35px;
+      height: 35px; }
+  #header-page .bar1 {
+    width: 2.3em;
+    height: 5px;
+    margin: 6px 1em 1.5em 0; }
+    #header-page .bar1 p {
+      font-size: 1.4em;
+      color: #fff; }
 
 #Intro-page {
   position: relative;
@@ -58,7 +70,7 @@
   #Intro-page .main-sam {
     width: 50%;
     position: absolute;
-    top: 44%;
+    top: 43.5%;
     left: 20%; }
     #Intro-page .main-sam .p1 {
       margin: 0;
@@ -77,7 +89,7 @@
       -webkit-transform: skewY(-10deg);
       -ms-transform: skewY(-10deg);
       transform: skewY(-10deg);
-      top: 50%;
+      top: 48%;
       left: 20%;
       font-size: 2.5em;
       font-family: calibri; }
@@ -92,11 +104,156 @@
       border: 4px solid #fff;
       width: 70%; }
 
+@media screen and (max-width: 1024px) {
+  #header-page {
+    width: 100%;
+    padding: 0.5em 0 0.5em 0; }
+    #header-page .logo {
+      margin-left: 2%;
+      font-size: 1.7em; }
+    #header-page .main-nav ul li {
+      margin-right: 3em; }
+    #header-page ul li a {
+      font-size: 1.5em;
+      margin: 0; }
+    #header-page .sidenav {
+      height: 25%;
+      width: 0;
+      top: 0;
+      right: 1em;
+      margin: 0.7em 0; }
+      #header-page .sidenav .sidenav a {
+        margin: 0 3em;
+        padding: 0.5em 0.5em 0.5em 2.7em; }
+      #header-page .sidenav img {
+        width: 30px;
+        height: 30px; }
+    #header-page .bar1 p {
+      font-size: 1.6em; }
+  #Intro-page .main-sam {
+    top: 47.5%;
+    left: 5%; }
+    #Intro-page .main-sam .p1 {
+      bottom: 50%;
+      left: 20%;
+      -webkit-transform: skewY(-12deg);
+      -ms-transform: skewY(-12deg);
+      transform: skewY(-12deg); }
+    #Intro-page .main-sam .p2 {
+      -webkit-transform: skewY(-13deg);
+      -ms-transform: skewY(-13deg);
+      transform: skewY(-13deg);
+      top: 48%;
+      left: 20%; } }
+
+@media screen and (max-width: 768px) {
+  #header-page {
+    padding: 0; }
+    #header-page .logo {
+      margin-left: 1%;
+      font-size: 1.7em; }
+    #header-page .main-nav ul li {
+      margin-right: 1em;
+      font-size: 0.9em; }
+    #header-page .sidenav {
+      height: 30%;
+      width: 0;
+      padding-top: 1.7em;
+      top: 0;
+      right: 0; }
+  #Intro-page {
+    background-size: 100% 95%; }
+    #Intro-page .main-sam {
+      top: 76.5%;
+      left: 10%; }
+      #Intro-page .main-sam .p1 {
+        bottom: 48%;
+        left: 20%;
+        -webkit-transform: skewY(-26deg);
+        -ms-transform: skewY(-26deg);
+        transform: skewY(-26deg); }
+      #Intro-page .main-sam .p2 {
+        -webkit-transform: skewY(-29deg);
+        -ms-transform: skewY(-29deg);
+        transform: skewY(-29deg);
+        top: 72%;
+        left: 20%; }
+    #Intro-page .images {
+      margin: 10% 12%;
+      top: 30%;
+      right: 50%; } }
+
+@media screen and (max-width: 425px) {
+  #header-page {
+    width: 100%; }
+    #header-page .logo {
+      margin-left: 1em;
+      font-size: 1.3em;
+      width: 100%; }
+    #header-page .burger-nav {
+      margin-right: 1px; }
+      #header-page .burger-nav .bar {
+        width: 2em;
+        height: 4px;
+        background-color: #fff;
+        margin: 0.3em 0;
+        cursor: pointer; }
+    #header-page .main-nav ul {
+      overflow: hidden;
+      background: rgba(29, 75, 226, 0.863);
+      height: 0;
+      display: block; }
+    #header-page .main-nav ul.open {
+      height: auto; }
+    #header-page .main-nav ul li {
+      text-align: center;
+      height: 10%;
+      margin-left: 0.4em; }
+    #header-page .main-nav ul li a {
+      border-bottom: 2px;
+      display: block;
+      margin: 0;
+      font-size: 0.8em; }
+    #header-page .bar1 {
+      width: 2.3em;
+      height: 5px;
+      margin: 4px 1em 1.5em 0; }
+  #Intro-page {
+    background-size: 100% 100%; }
+    #Intro-page .main-sam {
+      width: 90%;
+      top: 65%; }
+      #Intro-page .main-sam .p1 {
+        bottom: 40%;
+        left: 3%;
+        -webkit-transform: skewY(0);
+        -ms-transform: skewY(0);
+        transform: skewY(0);
+        font-size: 1.7em; }
+      #Intro-page .main-sam .p2 {
+        -webkit-transform: skewY(0);
+        -ms-transform: skewY(0);
+        transform: skewY(0);
+        left: 3%;
+        font-size: 1.7em;
+        color: #fff; }
+    #Intro-page .images {
+      margin: 25% 0 0 15%;
+      top: 50%;
+      right: 50%; }
+      #Intro-page .images img {
+        width: 80%; } }
+
 #contact {
-  position: absolute;
-  width: 100%;
-  height: 0 auto;
-  background-size: auto; }
+  position: relative;
+  width: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column; }
   #contact #main-footer {
     margin: 10em 3em;
     height: 35%;
@@ -111,11 +268,15 @@
     #contact #main-footer p {
       width: 50%;
       margin-right: 4em;
-      line-height: 1.2em;
+      line-height: 1.9em;
       font-size: 1.2em;
-      font-family: calibri;
-      letter-spacing: 1px; }
-    #contact #main-footer a {
+      font-family: calibri; }
+      #contact #main-footer p a {
+        text-decoration: none;
+        color: #000000; }
+      #contact #main-footer p strong a :hover {
+        color: #3f1b1b; }
+    #contact #main-footer .panel-button5 {
       text-decoration: none;
       font-family: "PT Mono", monospace;
       font-size: 1.4em;
@@ -125,12 +286,9 @@
       color: #fff;
       border-radius: 10px 10px; }
   #contact #footer1 {
-    width: 100%;
-    height: 35%;
-    background: url("../images/footer.png") no-repeat;
+    background: url("../images/footer.png");
     background-size: 100% 100%; }
     #contact #footer1 .container-contact {
-      padding-top: 4%;
       display: -webkit-box;
       display: -ms-flexbox;
       display: flex;
@@ -159,18 +317,18 @@
         #contact #footer1 .container-contact .contact2 p .fas {
           padding-right: 5px; }
     #contact #footer1 span {
-      position: absolute;
+      margin-bottom: 2px;
+      position: relative;
       padding-top: 0.5em;
-      top: 100%;
-      right: 50%;
+      left: 45%;
       color: #fff; }
 
 #myexperiences {
   position: relative;
   background: url("../images/About-me.png") no-repeat;
-  background-size: 100% 110%; }
+  background-size: 100% 100%; }
   #myexperiences .experiences {
-    margin: 0 20%;
+    margin: 0;
     padding-top: 5%; }
     #myexperiences .experiences h1 {
       padding: 5px;
@@ -183,33 +341,93 @@
       display: -webkit-box;
       display: -ms-flexbox;
       display: flex;
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+      flex-direction: row;
       -webkit-box-pack: justify;
       -ms-flex-pack: justify;
       justify-content: space-between;
-      margin-top: 3em;
-      margin-bottom: 5%; }
+      margin-top: 1em; }
+      #myexperiences .experiences .experience0 .experience1 {
+        margin-left: 10%;
+        padding-left: 5em; }
+      #myexperiences .experiences .experience0 .experiences2 {
+        padding-right: 3em; }
       #myexperiences .experiences .experience0 .experience1,
       #myexperiences .experiences .experience0 .experiences2 {
-        padding-right: 5em; }
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box; }
         #myexperiences .experiences .experience0 .experience1 strong,
         #myexperiences .experiences .experience0 .experiences2 strong {
-          line-height: 3px;
+          line-height: 2em;
+          padding: 0.3em 0 0 1em;
           color: #fff;
-          font-size: 1em;
-          letter-spacing: 1px; }
+          font-size: 0.9em; }
         #myexperiences .experiences .experience0 .experience1 p,
         #myexperiences .experiences .experience0 .experiences2 p {
+          padding-left: 1em;
           color: #fff;
           line-height: 1.9em;
           font-family: calibri;
           letter-spacing: 1px; }
+        #myexperiences .experiences .experience0 .experience1 span,
+        #myexperiences .experiences .experience0 .experiences2 span {
+          color: #fff; }
+        #myexperiences .experiences .experience0 .experience1 time,
+        #myexperiences .experiences .experience0 .experiences2 time {
+          font-size: 1.3em; }
+
+@media screen and (max-width: 1024px) {
+  #myexperiences .experiences {
+    padding-top: 0;
+    width: 100%; }
+    #myexperiences .experiences h1 {
+      padding-top: 2em;
+      font-size: 1.6em;
+      margin: 0; }
+    #myexperiences .experiences .experience0 {
+      margin: 0; }
+      #myexperiences .experiences .experience0 .experience1 {
+        margin-left: 8%;
+        padding-left: 5em; }
+      #myexperiences .experiences .experience0 .experiences2 {
+        margin: 0 7% 0 1.5em; }
+      #myexperiences .experiences .experience0 .experience1 strong,
+      #myexperiences .experiences .experience0 .experiences2 strong {
+        line-height: 1.5em;
+        padding: 0.3em 0 0 1em;
+        font-size: 0.7em; }
+      #myexperiences .experiences .experience0 .experience1 p,
+      #myexperiences .experiences .experience0 .experiences2 p {
+        line-height: 1.5em; } }
+
+@media screen and (max-width: 768px) {
+  #myexperiences .experiences h1 {
+    padding-top: 1.5em;
+    font-size: 1.5em; }
+  #myexperiences .experiences .experience0 .experience1 {
+    margin-left: 14%;
+    padding-left: 1.4em; }
+  #myexperiences .experiences .experience0 .experiences2 {
+    margin: 0 1% 0 0; }
+  #myexperiences .experiences .experience0 .experience1 strong,
+  #myexperiences .experiences .experience0 .experiences2 strong {
+    line-height: 1.1em;
+    padding: 0.3em 0 0 1em;
+    font-size: 0.7em; }
+  #myexperiences .experiences .experience0 .experience1 p,
+  #myexperiences .experiences .experience0 .experiences2 p {
+    line-height: 1.2em; }
+  #myexperiences .experiences .experience0 .experience1 time,
+  #myexperiences .experiences .experience0 .experiences2 time {
+    font-size: 1.2em; } }
 
 #myskils-intro {
   position: relative;
   background: url("../images/Skils.png") no-repeat;
   background-position: right;
-  background-size: 79.3% 110%;
-  vertical-align: text-top;
+  background-size: 77.5% 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -250,10 +468,13 @@
         #myskils-intro > .skils .myskilsIntro .about-me1 p {
           margin: 0;
           padding: 0;
-          font-size: 1.2em;
+          font-size: 1.1em;
           text-align: justify; }
           #myskils-intro > .skils .myskilsIntro .about-me1 p a {
-            text-decoration: none; }
+            text-decoration: none;
+            color: #000000; }
+          #myskils-intro > .skils .myskilsIntro .about-me1 p strong a :hover {
+            color: #3f1b1b; }
     #myskils-intro > .skils .mySkills {
       -webkit-box-flex: 2;
       -ms-flex: 2;
@@ -262,7 +483,7 @@
       #myskils-intro > .skils .mySkills h1 {
         margin: 5em 0 1em 0;
         font-size: 2em;
-        color: #fff;
+        color: white;
         font-family: calibri;
         letter-spacing: 3px; }
       #myskils-intro > .skils .mySkills .mySkills-group {
@@ -273,7 +494,8 @@
         -webkit-box-direction: normal;
         -ms-flex-direction: column;
         flex-direction: column;
-        width: 550px; }
+        width: 75%;
+        height: 60%; }
         #myskils-intro > .skils .mySkills .mySkills-group .skillItem {
           width: 100%;
           height: 3.4em;
@@ -317,6 +539,98 @@
       #myskils-intro > .skils .mySkills .git .skillColor {
         background: #fff;
         width: 55%; }
+
+@media screen and (max-width: 1024px) {
+  #myskils-intro {
+    background-size: 78% 100%; }
+    #myskils-intro > .skils .mySkills h1 {
+      margin: 3em 0 0.5em 0; }
+    #myskils-intro > .skils .mySkills .mySkills-group {
+      width: 90%;
+      height: 65%; }
+      #myskils-intro > .skils .mySkills .mySkills-group .skillItem h2 {
+        height: 2em;
+        margin: 1em 0.5em 0 0; } }
+
+@media screen and (max-width: 768px) {
+  #myskils-intro {
+    background-size: 85% 100%; }
+    #myskils-intro > .skils .myskilsIntro {
+      margin-bottom: 40%;
+      -webkit-box-flex: 6;
+      -ms-flex: 6;
+      flex: 6; }
+      #myskils-intro > .skils .myskilsIntro .about-me1 {
+        width: 65%;
+        margin: 7em 20% 0 0; }
+    #myskils-intro > .skils .mySkills {
+      -webkit-box-flex: 7;
+      -ms-flex: 7;
+      flex: 7; }
+      #myskils-intro > .skils .mySkills h1 {
+        margin: 3em 0 0 0; }
+      #myskils-intro > .skils .mySkills .mySkills-group {
+        width: 85%;
+        height: 60%; }
+        #myskils-intro > .skils .mySkills .mySkills-group .skillItem h2 {
+          height: 2.1em;
+          margin: 1em 0.2em 0 0; } }
+
+@media screen and (max-width: 425px) {
+  #myskils-intro {
+    position: absolute;
+    background: url("../images/skils425Bg.png") no-repeat;
+    background-position: right;
+    background-size: 100% 100%; }
+    #myskils-intro > .skils {
+      width: 100%;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+      justify-content: space-between; }
+      #myskils-intro > .skils .myskilsIntro {
+        margin: 25% 0 25% 15%; }
+        #myskils-intro > .skils .myskilsIntro .about-me1 p {
+          margin: 0;
+          padding: 0;
+          font-size: 1em;
+          color: #ffffff; }
+          #myskils-intro > .skils .myskilsIntro .about-me1 p a {
+            color: #ffffff; }
+      #myskils-intro > .skils .mySkills {
+        margin: 0 0 20% 3%;
+        -webkit-box-flex: 9;
+        -ms-flex: 9;
+        flex: 9; }
+        #myskils-intro > .skils .mySkills h1 {
+          margin: 3em 0 0 0;
+          letter-spacing: normal;
+          font-size: 1.5em; }
+        #myskils-intro > .skils .mySkills .mySkills-group {
+          width: 90%;
+          height: 10%; }
+          #myskils-intro > .skils .mySkills .mySkills-group .skillItem {
+            width: 90%;
+            height: 1.7em;
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+            justify-content: flex-end;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            align-items: center; }
+            #myskils-intro > .skils .mySkills .mySkills-group .skillItem h2 {
+              font-size: 1.2em;
+              height: 2em;
+              margin: 1em 0.2em 0 0; } }
 
 *,
 html {

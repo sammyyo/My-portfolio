@@ -1,8 +1,9 @@
 #contact {
-  position: absolute;
-  width: 100%;
-  height: 0 auto;
-  background-size: auto;
+  position: relative;
+  width: 0 auto;
+  //height: 100;
+  display: flex;
+  flex-direction: column;
   #main-footer {
     margin: 10em 3em;
     height: 35%;
@@ -12,12 +13,20 @@
     p {
       width: 50%;
       margin-right: 4em;
-      line-height: 1.2em;
+      line-height: 1.9em;
       font-size: 1.2em;
       font-family: calibri;
-      letter-spacing: 1px;
+      //letter-spacing: 1px;
+      a {
+        text-decoration: none;
+        color: #000000;
+      }
+      strong a :hover {
+        color: #3f1b1b;
+      }
     }
-    a {
+
+    .panel-button5 {
       text-decoration: none;
       font-family: "PT Mono", monospace;
       font-size: 1.4em;
@@ -27,16 +36,13 @@
       color: #fff;
       border-radius: 10px 10px;
     }
-    a:hover {
-    }
   }
   #footer1 {
-    width: 100%;
-    height: 35%;
-    background: url("../images/footer.png") no-repeat;
+    //height: 35%;
+    background: url("../images/footer.png");
     background-size: 100% 100%;
     .container-contact {
-      padding-top: 4%;
+      // padding-top: 4%;
       display: flex;
       justify-content: space-around;
       align-items: center;
@@ -64,10 +70,11 @@
       }
     }
     span {
-      position: absolute;
+      margin-bottom: 2px;
+      position: relative;
       padding-top: 0.5em;
-      top: 100%;
-      right: 50%;
+      // top: 30%;
+      left: 45%;
       color: #fff;
     }
   }

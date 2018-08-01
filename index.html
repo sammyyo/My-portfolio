@@ -15,6 +15,7 @@
         <header id="header-page">
                 <a class="logo" href="#Intro-page">Samuel <strong>Erhini</strong></a>
                 <nav class="main-nav">
+                    
                     <ul>
                         <li> <a class="navbar-link" id="homeLink" data-sec="#Intro-page" href="#">Home</a></li>
                         <li> <a class="navbar-link" data-sec="#myskils-intro" href="#">Skils</a></li>
@@ -22,38 +23,39 @@
                         <li> <a class="navbar-link" data-sec="#contact" href="#">Contact</a></li>
                     </ul>
                 </nav>
-    
-                <!-- 
-                <div><a href="https://www.linkedin.com/in/samuel-erhini/" target="_blank"><img src="https://png.icons8.com/color/50/000000/linkedin.png"></a>
+
+
+                <div class="sidenav" id="mySidenav" onclick="closeNav()">
+                    <a href="https://www.linkedin.com/in/samuel-erhini/" target="_blank"><img src="https://png.icons8.com/color/50/000000/linkedin.png"></a>
+                    <a href="https://github.com/sammyyo" target="_blank"><img src="https://png.icons8.com/ios/50/000000/github-filled.png"></a>
+                    <a href="https://api.whatsapp.com/send?phone=015217921800" target="_blank"><img src="https://png.icons8.com/color/50/000000/whatsapp.png"></a>
                 </div>
-                <div><a href="https://github.com/sammyyo" target="_blank"><img src="https://png.icons8.com/ios/50/000000/github-filled.png"></a>
-                </div>
-                <div><a href=""><img src="https://png.icons8.com/color/50/000000/whatsapp.png" target="_blank"></a></div>
-                 -->
-    
-                <div class="container">
-                    <div class="bar1"></div>
-                    <div class="bar2"></div>
-                    <div class="bar3"></div>
-                </div>
+                <a class="burger-nav">
+                        <div class="bar"></div>
+                        <div class="bar"></div>
+                        <div class="bar"></div> 
+                </a>
+                  <div class="bar0" onclick="openNav()">
+                    <div class="bar1"><p>SM</p></div>
+                  </div>
             </header>
     <section class="pageSection" id="Intro-page">
          
         
-        <div class="main-sam">
-                            <!-- <p>Samuel Erhini <br>Web Developer</p> -->
+                     <div class="main-sam">
                             <p class="p1">Samuel Erhini</p>
                             <p class="p2">Web developer</p>
-                        </div>   
+                     </div>   
 
-         <figure class="images">
-         <img src="images/Samuel Erhini3.jpg" alt="Samuel-Erhini1">
-         </figure> 
-         
+                     
+                         <figure class="images">
+                             <img src="images/Samuel Erhini3.jpg" alt="Samuel-Erhini1">        
+                         </figure>
+                         
         <span class="dropdown">
-                <a href="#myskils-intro">
+            <a class="navbar-link1" data-sec1="#myskils-intro" href="#skils-intro">
                  <img src="https://png.icons8.com/ios/50/000000/circled-chevron-down.png">
-             </a>
+            </a>
     
         </span> 
 </section>
@@ -62,7 +64,7 @@
             <div class="skils">
                     <div class="myskilsIntro">
                         <div class="about-me1"> 
-                            <p>I am searching for a position that will allow me to improve my current programming knowledge. I have a passion for programming and I always give 100% in every task that´s required of me.After undertaking a one-year programming course in <a href="https://digitalcareerinstitute.org/en/" target="_blank"><b>DCI Düsseldorf</b></a> whereby I obtain the following programming skills. <br>I also seek the opportunity to learn new skills for future use.
+                            <p>Ich bin auf der Suche nach einer Position, die es mir ermöglicht, mein aktuelles Wissen als Programmierer zu vertiefen. Während meines einjährigen Kurses bei <strong><a href="https://digitalcareerinstitute.org/en/" target="_blank">DCI</a>  </strong>   habe ich meine neue Leidenschaft für das Programmieren entdeckt und bin sehr daran interessiert, mich in diesem Bereich weiter zu bilden und Neues zu lernen, Ich gebe immer 100% und liebe die Herausforderung. 
                             </p> 
                         </div>   <!-- about-me1 -->
                     </div>
@@ -117,7 +119,7 @@
                                 </div>
                                 </div>
                                 <div class="skillItem git">
-                                    <h2>Node Js</h2>
+                                    <h2>NodeJS</h2>
                                 <div class="skillBar">
                                 <div class="skillColor"></div>
                                 </div>
@@ -143,7 +145,7 @@
                 </div>     <!-- skils -->
     
     <span class="dropdown">
-        <a href="#myexperiences">
+        <a class="navbar-link1" data-sec1="#myexperiences" href="#myexperience">
             <img src="https://png.icons8.com/ios/50/000000/circled-chevron-down.png">
         </a>
     </span>
@@ -158,65 +160,59 @@
             <div class="experience0">
 
             <div class="experience1">
-            <strong><time>01/2003 - 06/2003</time> Weiterbildung zum zertifizierten Schweißer,</strong>
-            <p>
-                Institut Aragones de Empl, Zaragoza (Spanien)
-            </p>
-            <p>    
-                Abgeschlossenes Diploma als zertifizierter
-                mAG-Schweißer für Metall und PVC
-            </p>
+                    <span>-</span><strong><time>07/2018 - 07/2017</time> DCI (Digital Career      Institude)</strong><br>
+                    <span>-</span> <strong><time>03/2017 - 07/2012 </time>Paketzusteller,  </strong>
+                    <p>hauptberuflich, Vollzeit</p> 
+                    <p>HERMES Hürth, TRANS-O-FLEX, Hürth, DHL Köln (Deutschland)</p>
+                    <p>Zustellung von Paketen im Raum
+                            Köln-Rodenkirchen, Vollzeit
+                            Bonn Bad-Godesberg, Vollzeit
+                            Köln-Zentrum, Vollzeit
+                            Abholung von Retouren
+                    </p>
+                    <span>-</span><strong><time>12/2015 - 07/2015 </time></strong> <p>nebenberuflich, Aushilfe, Küchenhilfe, Kellner u.a</p>
 
-            <strong><time>07/2003 - 01/2007</time> Schweißer (zertifiziert),</strong>
-            <p>Fa. Meysol sc., Zaragoza (Spanien)</p>
-            <p>
-                     Fokussiert auf mAG Metall-Schweißarbeiten
-                     Eigenständiges Arbeiten nach Bauzeichnungen
-                     Ausgeschieden aufgrund von Firmeninsolvenz
-                     Vollzeit
-            </p>
-            <strong><time>02/2007 - 12/2009</time> Schweißer (zertifiziert),</strong>
-            <p>Fa. Norconce sl., Zaragoza (Spanien)</p>
-            <p>
-                    Fokussiert auf mAG Metall-Schweißarbeiten
-                     Eigenständiges Arbeiten nach Konstruktionsplänen
-                     Ausgeschieden aufgrund von Firmeninsolvenz
-                     Vollzeit
-            </p>
-       
-            <strong><time>07/2007 - 08/2011</time> Kellner, NH Hotels Espana, Zaragoza (Spanien)</strong>
-        
-            <p><strong><time>07/2007 - 12/2009:</time></strong> nebenberuflich, Aushilfe</p>
-        </div>
-        <div class="experiences2">
-
-            <p><strong><time>01/2010 - 08/2011:</time></strong>hauptberuflich, Vollzeit</p> 
-            <strong><time>09/2011 - 06/2012</time> registriert als arbeitssuchend (in Spanien)</strong>
-            <strong><time>07/2012 – 06/214</time> Paketzusteller, 
-            </strong><p>Hürth (Deutschland)</p> 
-            <p>
-                Zustellung von Paketen im Raum
-                Köln-Rodenkirchen, Vollzeit
-                Abholung von Retouren
-            </p>   
-            <strong><time>06/2014 – 09/2016</time> Paketzusteller, </strong>
-            <p>TRANS-O-FLEX, Hürth (Deutschland)</p>
-            <p>Zustellung von Paketen im Raum
-                    Bonn Bad-Godesberg, Vollzeit
-                    Abholung von Retouren
-            </p>    
-            <strong><time>06/2014 – 09/2016</time> Paketzusteller, </strong>
-            <p>DHL Köln (Deutschland)</p>
-            <p>Zustellung von Paketen im Raum
-                    Köln-Zentrum, Vollzeit
-                    Abholung von Retouren
-            </p>
+                    <span>-</span><strong><time>08/2011 - 07/2007 </time></strong> <p>nebenberuflich, Aushilfe</p>
+                    <strong> Kellner, NH Hotels Espana, Zaragoza (Spanien)</strong>
+            
+                    
+                    </div>
+                    <div class="experiences2">
+                            
+                  <span>-</span><strong><time>12/2009 - 02/2007</time> Schweißer (zertifiziert),</strong>
+                     <p>hauptberuflich, Vollzeit</p> 
+                <p>Fa. Norconce sl., Zaragoza (Spanien)</p>
+                <p>
+                        Fokussiert auf mAG Metall-Schweißarbeiten, Vollzeit.
+                         Eigenständiges Arbeiten nach Konstruktionsplänen
+                         Ausgeschieden aufgrund von Firmeninsolvenz
+                        
+                </p>
+           
+            
+                <span>-</span><strong><time>01/2007 - 07/2003 </time> Schweißer (zertifiziert),</strong>
+                <p>hauptberuflich, Vollzeit</p> 
+                <p>Fa. Meysol sc., Zaragoza (Spanien)</p>
+                <p>
+                         Fokussiert auf mAG Metall-Schweißarbeiten
+                         Eigenständiges Arbeiten
+                </p>
+                <span>-</span><strong><time>06/2003 - 01/2003 </time> Weiterbildung zum zertifizierten Schweißer,</strong>
+                <p>
+                    Institut Aragones de Empl., Zaragoza (Spanien)
+                </p>
+                <p>    
+                    Abgeschlossenes Diplom als zertifizierter
+                    mAG-Schweißer für Metall und PVC
+                </p>
+                <span>-</span><strong><time>07/2000 - 02/1994</time></strong><p>Abitur "Government Secondary School Elekohia" Port-Harcourt, Nigeria. </p>
         </div> 
         </div>
         
+        
     </div>
     <span class="dropdown">
-        <a href="#contact">
+        <a class="navbar-link1" data-sec1="#contact" href="#contact">
 
         
             <img src="https://png.icons8.com/ios/50/000000/circled-chevron-down.png">
@@ -230,10 +226,15 @@
      <!-- Stat of my contact-->
     <footer class="pageSection" id="contact">
         <div id="main-footer">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident vero tempora molestiae fugiat incidunt repellat autem quo, voluptates corrupti debitis labore architecto deleniti alias atque sint quia ipsam deserunt minus.
-            Laboriosam soluta impedit aspernatur architecto, rerum voluptatum ab, suscipit, id dignissimos doloremque beatae nemo ipsa harum qui. Repellat qui quaerat possimus facere, voluptatibus quos ad reprehenderit consequatur similique consectetur voluptate.
-            nem, at totam illo amet quod facere, ipsa, ullam rem laboriosam? Quidem rerum velit accusamus excepturi! Impedit ut aut corrupti incidunt cumque quae. Laborum, possimus!</p>
-            <a class="panel-button5" href="#pageSection #Intro-page">Hire Me</a>
+            <p>Ich bin Samuel, ich habe über 15 Jahre aus Schweißer gearbeitet, deshalb kann ich "anpacken". Meine neue Begeisterung ist Web-Entwicklung und deshalb suche ich eine Herausforderung, die mir erlaubt auch dort " anzupacken".<br>
+
+               Während des letzten Jahres habe ich bei <strong><a href="https://digitalcareerinstitute.org/en/" target="_blank">DCI Düsseldorf</a>  </strong>   die wichtigsten Programmiersprachen was Frontend Development betrifft (HTML, CSS,  Javascritp usw.) gelernt und suche nun spanende Herausforderungen in diesem Bereich<br>
+                
+                
+            Ich möchte nicht nur meine erworbenen Kentnisse vertiefen sondern möglichst auch viel Neues lernen. <br>
+                
+        Haben sie solche Herausfordrungen in ihrem Team für mich? Ich würde mich sehr freuen von ihnen zu hören!</p>
+            <a class="panel-button5" href="#">Hire Me</a>
         </div>
         <div id="footer1">
             <div class="container-contact">
@@ -242,7 +243,7 @@
                 </div>
                 <div class="contact2">
                     <p><i class="fas fa-phone-volume"></i>Telefon: 0221-34665753</p>
-                    <p><i class="fas fa-mobile"></i>Mobile: 0152179218
+                    <p><i class="fas fa-mobile"></i>Mobile: 015217921800
                     </p><p><i class="fas fa-at"></i>Email: erhini@yahoo.com</p>
                     <p><i class="fas fa-home"></i>Adress: Montanus Straße 75,
                         50165, Köln-Mülheim</p>
@@ -252,7 +253,7 @@
              </div>    
        
              
-                </footer>  <!-- End of my contact--> 
+    </footer>  <!-- End of my contact--> 
       
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
