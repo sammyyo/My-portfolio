@@ -5,7 +5,7 @@
   display: flex;
   flex-direction: column;
   #main-footer {
-    margin: 10em 3em;
+    margin: 17em 3em;
     height: 35%;
     display: flex;
     justify-content: space-around;
@@ -63,6 +63,7 @@
         transform: scaleX(1.2);
         transition: 0.5s;
         border-radius: 5px;
+        color: #fff;
       }
       .contact2 p {
         width: 60%;
@@ -114,7 +115,6 @@
     }
   }
   h2 {
-    background-color: #feffed;
     padding: 20px 35px;
     margin: -0.3em -2em;
     text-align: center;

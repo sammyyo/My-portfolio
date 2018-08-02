@@ -280,7 +280,7 @@
   -ms-flex-direction: column;
   flex-direction: column; }
   #contact #main-footer {
-    margin: 10em 3em;
+    margin: 17em 3em;
     height: 35%;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -350,7 +350,8 @@
         -webkit-transition: 0.5s;
         -o-transition: 0.5s;
         transition: 0.5s;
-        border-radius: 5px; }
+        border-radius: 5px;
+        color: #fff; }
       #contact #footer1 .container-contact .contact2 p {
         width: 60%;
         margin-left: 50%;
@@ -392,7 +393,6 @@
       color: rgba(29, 75, 225, 0.863);
       top: 1%; }
   #contact h2 {
-    background-color: #feffed;
     padding: 20px 35px;
     margin: -0.3em -2em;
     text-align: center; }
