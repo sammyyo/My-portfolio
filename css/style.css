@@ -335,7 +335,7 @@
       -ms-flex-align: center;
       align-items: center; }
       #contact #footer1 .container-contact .contact1,
-      #contact #footer1 .container-contact button {
+      #contact #footer1 .container-contact #popup {
         font-family: "PT Mono", monospace;
         font-size: 1em;
         padding: 0.5em 0.5em;
@@ -343,15 +343,14 @@
         -webkit-transition: 0.5s;
         -o-transition: 0.5s;
         transition: 0.5s; }
-      #contact #footer1 .container-contact button:hover {
+      #contact #footer1 .container-contact #popup:hover {
         -webkit-transform: scaleX(1.2);
         -ms-transform: scaleX(1.2);
         transform: scaleX(1.2);
         -webkit-transition: 0.5s;
         -o-transition: 0.5s;
         transition: 0.5s;
-        border-radius: 5px;
-        color: #fff; }
+        border-radius: 5px; }
       #contact #footer1 .container-contact .contact2 p {
         width: 60%;
         margin-left: 50%;
@@ -741,6 +740,11 @@
 html {
   margin: 0;
   padding: 0; }
+
+a:focus,
+button:focus,
+input:focus {
+  outline: none; }
 
 body {
   margin: 0;

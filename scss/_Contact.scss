@@ -16,7 +16,6 @@
       line-height: 1.9em;
       font-size: 1.2em;
       font-family: calibri;
-      //letter-spacing: 1px;
       a {
         text-decoration: underline;
         color: #000000;
@@ -52,18 +51,17 @@
       justify-content: space-around;
       align-items: center;
       .contact1,
-      button {
+      #popup {
         font-family: "PT Mono", monospace;
         font-size: 1em;
         padding: 0.5em 0.5em;
         border-radius: 10px 10px;
         transition: 0.5s;
       }
-      button:hover {
+      #popup:hover {
         transform: scaleX(1.2);
         transition: 0.5s;
         border-radius: 5px;
-        color: #fff;
       }
       .contact2 p {
         width: 60%;
