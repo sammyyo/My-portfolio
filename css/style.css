@@ -22,10 +22,33 @@
     font-size: 1.8em;
     font-family: calibri;
     color: #fff;
-    text-decoration: none; }
+    text-decoration: none;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s; }
+  #header-page .logo:hover {
+    -webkit-transform: scaleX(1.2);
+    -ms-transform: scaleX(1.2);
+    transform: scaleX(1.2);
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+    border-radius: 5px; }
   #header-page .main-nav ul li {
     margin-right: 3em;
-    display: inline-block; }
+    display: inline-block;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s; }
+  #header-page .main-nav ul li:hover {
+    -webkit-transform: scaleX(1.2);
+    -ms-transform: scaleX(1.2);
+    transform: scaleX(1.2);
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+    background-color: rgba(57, 65, 95, 0.863);
+    border-radius: 5px; }
   #header-page ul li a {
     text-decoration: none;
     font-family: "PT Mono", monospace;
@@ -56,9 +79,11 @@
       width: 35px;
       height: 35px; }
   #header-page .bar1 {
+    text-decoration: underline;
     width: 2.3em;
     height: 5px;
-    margin: 6px 1em 1.5em 0; }
+    margin: 6px 1em 1.5em 0;
+    color: #fff; }
     #header-page .bar1 p {
       font-size: 1.4em;
       color: #fff; }
@@ -200,7 +225,7 @@
         cursor: pointer; }
     #header-page .main-nav ul {
       overflow: hidden;
-      background: rgba(29, 75, 226, 0.863);
+      background: rgba(29, 75, 225, 0.863);
       height: 0;
       display: block; }
     #header-page .main-nav ul.open {
@@ -272,19 +297,31 @@
       font-size: 1.2em;
       font-family: calibri; }
       #contact #main-footer p a {
-        text-decoration: none;
-        color: #000000; }
-      #contact #main-footer p strong a :hover {
-        color: #3f1b1b; }
+        text-decoration: underline;
+        color: #000000;
+        cursor: pointer; }
+      #contact #main-footer p a:hover {
+        color: #252222; }
     #contact #main-footer .panel-button5 {
       text-decoration: none;
       font-family: "PT Mono", monospace;
       font-size: 1.4em;
       margin: 3em;
       padding: 0.5em 0.5em;
-      background: #1e4ae2;
+      background: rgba(29, 75, 225, 0.863);
       color: #fff;
-      border-radius: 10px 10px; }
+      border-radius: 10px 10px;
+      -webkit-transition: 0.5s;
+      -o-transition: 0.5s;
+      transition: 0.5s; }
+    #contact #main-footer .panel-button5:hover {
+      -webkit-transform: scaleX(1.2);
+      -ms-transform: scaleX(1.2);
+      transform: scaleX(1.2);
+      -webkit-transition: 0.5s;
+      -o-transition: 0.5s;
+      transition: 0.5s;
+      border-radius: 5px; }
   #contact #footer1 {
     background: url("../images/footer.png");
     background-size: 100% 100%; }
@@ -298,15 +335,22 @@
       -ms-flex-align: center;
       align-items: center; }
       #contact #footer1 .container-contact .contact1,
-      #contact #footer1 .container-contact a {
-        text-decoration: none;
+      #contact #footer1 .container-contact button {
         font-family: "PT Mono", monospace;
-        font-size: 1.4em;
-        margin: 3em;
+        font-size: 1em;
         padding: 0.5em 0.5em;
-        background: #fff;
-        color: #000000;
-        border-radius: 10px 10px; }
+        border-radius: 10px 10px;
+        -webkit-transition: 0.5s;
+        -o-transition: 0.5s;
+        transition: 0.5s; }
+      #contact #footer1 .container-contact button:hover {
+        -webkit-transform: scaleX(1.2);
+        -ms-transform: scaleX(1.2);
+        transform: scaleX(1.2);
+        -webkit-transition: 0.5s;
+        -o-transition: 0.5s;
+        transition: 0.5s;
+        border-radius: 5px; }
       #contact #footer1 .container-contact .contact2 p {
         width: 60%;
         margin-left: 50%;
@@ -322,6 +366,67 @@
       padding-top: 0.5em;
       left: 45%;
       color: #fff; }
+  #contact #abc {
+    width: 100%;
+    height: 100%;
+    opacity: 0.95;
+    top: 0;
+    left: 0;
+    display: none;
+    overflow: auto; }
+  #contact div#popupContact {
+    position: absolute;
+    left: 50%;
+    top: 17%;
+    margin-left: -12em;
+    font-family: calibri; }
+  #contact form {
+    max-width: 300px;
+    min-width: 250px;
+    padding: 10px 50px;
+    border: 1px solid rgba(29, 75, 225, 0.863);
+    border-radius: 10px;
+    background-color: #fff; }
+    #contact form a {
+      text-decoration: none;
+      color: rgba(29, 75, 225, 0.863);
+      top: 1%; }
+  #contact h2 {
+    background-color: #feffed;
+    padding: 20px 35px;
+    margin: -0.3em -2em;
+    text-align: center; }
+  #contact hr {
+    margin-top: 1em; }
+  #contact input[type="text"] {
+    width: 82%;
+    padding: 10px;
+    margin-top: 30px;
+    border: 1px solid #ccc;
+    padding-left: 40px;
+    font-size: 16px;
+    font-family: calibri; }
+  #contact textarea {
+    width: 82%;
+    height: 4em;
+    padding: 1em;
+    resize: none;
+    margin-top: 3em;
+    border: 1px solid #ccc;
+    padding-left: 2em;
+    font-size: 1.1em;
+    font-family: calibri;
+    margin-bottom: 2em; }
+  #contact #submit {
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    background-color: rgba(29, 75, 225, 0.863);
+    color: #fff;
+    padding: 10px 0;
+    font-size: 1.3em;
+    cursor: pointer;
+    border-radius: 5px; }
 
 #myexperiences {
   position: relative;
@@ -329,7 +434,7 @@
   background-size: 100% 100%; }
   #myexperiences .experiences {
     margin: 0;
-    padding-top: 5%; }
+    padding-top: 3.2%; }
     #myexperiences .experiences h1 {
       padding: 5px;
       font-size: 2em;
@@ -348,7 +453,7 @@
       -webkit-box-pack: justify;
       -ms-flex-pack: justify;
       justify-content: space-between;
-      margin-top: 1em; }
+      margin-top: 0.6em; }
       #myexperiences .experiences .experience0 .experience1 {
         margin-left: 10%;
         padding-left: 5em; }
@@ -360,7 +465,7 @@
         box-sizing: border-box; }
         #myexperiences .experiences .experience0 .experience1 strong,
         #myexperiences .experiences .experience0 .experiences2 strong {
-          line-height: 2em;
+          line-height: 1.7em;
           padding: 0.3em 0 0 1em;
           color: #fff;
           font-size: 0.9em; }
@@ -376,7 +481,7 @@
           color: #fff; }
         #myexperiences .experiences .experience0 .experience1 time,
         #myexperiences .experiences .experience0 .experiences2 time {
-          font-size: 1.3em; }
+          font-size: 1.1em; }
 
 @media screen and (max-width: 1024px) {
   #myexperiences .experiences {
@@ -471,10 +576,10 @@
           font-size: 1.1em;
           text-align: justify; }
           #myskils-intro > .skils .myskilsIntro .about-me1 p a {
-            text-decoration: none;
+            text-decoration: underline;
             color: #000000; }
-          #myskils-intro > .skils .myskilsIntro .about-me1 p strong a :hover {
-            color: #3f1b1b; }
+          #myskils-intro > .skils .myskilsIntro .about-me1 p a:hover {
+            color: #252222; }
     #myskils-intro > .skils .mySkills {
       -webkit-box-flex: 2;
       -ms-flex: 2;

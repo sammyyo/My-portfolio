@@ -224,7 +224,7 @@
     
 
      <!-- Stat of my contact-->
-    <footer class="pageSection" id="contact">
+    <footer class="pageSection" id="contact" style="overflow:hidden;">
         <div id="main-footer">
             <p>Ich bin Samuel, ich habe über 15 Jahre aus Schweißer gearbeitet, deshalb kann ich "anpacken". Meine neue Begeisterung ist Web-Entwicklung und deshalb suche ich eine Herausforderung, die mir erlaubt auch dort " anzupacken".<br>
 
@@ -238,8 +238,24 @@
         </div>
         <div id="footer1">
             <div class="container-contact">
+                
+                    <div id="popupContact">
+                            <div id="abc">
+                            <!-- Contact Us Form -->
+                            <form id="form" name="form" action="https://formspree.io/erhini@yahoo.com" method="post">
+                                <a href="javascript:void(0)" onclick="closeNav1()">&times; </a>
+                            <h2>Contact Me</h2>
+                            <hr>
+                            <input id="name" name="name" type="text" placeholder="Name" required>
+                            <input id="email" name="_replyto" type="text" placeholder="Email" required>
+                            <textarea id="msg" name="message" placeholder="Message" required></textarea>
+                            <button id="submit" type="submit">Send</button>
+                            </form>
+                     </div>
+                    </div>
                 <div class="contact1">
-                    <p>Contact</p>
+                       
+                    <!-- <p></p> --> <button id="popup" onclick="div_show()">Contact</button> 
                 </div>
                 <div class="contact2">
                     <p><i class="fas fa-phone-volume"></i>Telefon: 0221-34665753</p>

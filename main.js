@@ -15,6 +15,31 @@ function closeNav() {
   document.getElementById("mySidenav").style.width = "0";
 }
 
+function validate(event) {
+  console.log(event);
+  document.getElementById("name").value = "";
+  document.getElementById("email").value = "";
+  document.getElementById("msg").value = "";
+
+  // if (
+  //   document.getElementById("name").value == "" ||
+  //   document.getElementById("email").value == "" ||
+  //   document.getElementById("msg").value == ""
+  // ) {
+  // } else {
+  //   document.getElementById("form").onsubmit();
+  //   alert("Form Submitted Successfully...");
+  // }
+}
+//Function To Display Popup
+function div_show() {
+  document.getElementById("abc").style.display = "block";
+}
+//Function to Hide Popup
+function closeNav1() {
+  document.getElementById("abc").style.display = "none";
+}
+
 $(() => {
   $(".dropdown").on("click", () => {
     $(".dropdown")
