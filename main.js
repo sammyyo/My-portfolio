@@ -20,16 +20,6 @@ function validate(event) {
   document.getElementById("name").value = "";
   document.getElementById("email").value = "";
   document.getElementById("msg").value = "";
-
-  // if (
-  //   document.getElementById("name").value == "" ||
-  //   document.getElementById("email").value == "" ||
-  //   document.getElementById("msg").value == ""
-  // ) {
-  // } else {
-  //   document.getElementById("form").onsubmit();
-  //   alert("Form Submitted Successfully...");
-  // }
 }
 //Function To Display Popup
 function div_show() {

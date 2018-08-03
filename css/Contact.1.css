@@ -1,0 +1,159 @@
+#contact {
+  width: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: flex-end; }
+  #contact #main-footer {
+    margin: 8em 3em;
+    height: 35%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center; }
+    #contact #main-footer p {
+      width: 50%;
+      margin-right: 4em;
+      line-height: 1.9em;
+      font-size: 1.2em;
+      font-family: calibri; }
+      #contact #main-footer p a {
+        text-decoration: underline;
+        color: #000000;
+        cursor: pointer; }
+      #contact #main-footer p a:hover {
+        color: #252222; }
+    #contact #main-footer .panel-button5 {
+      text-decoration: none;
+      font-family: "PT Mono", monospace;
+      font-size: 1.4em;
+      margin: 3em;
+      padding: 0.5em 0.5em;
+      background: rgba(29, 75, 225, 0.863);
+      color: #fff;
+      border-radius: 10px 10px;
+      -webkit-transition: 0.5s;
+      -o-transition: 0.5s;
+      transition: 0.5s; }
+    #contact #main-footer .panel-button5:hover {
+      -webkit-transform: scaleX(1.2);
+      -ms-transform: scaleX(1.2);
+      transform: scaleX(1.2);
+      -webkit-transition: 0.5s;
+      -o-transition: 0.5s;
+      transition: 0.5s;
+      border-radius: 5px; }
+  #contact #footer1 {
+    background: url("../images/footer.png");
+    background-size: 100% 100%; }
+    #contact #footer1 .container-contact {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-pack: distribute;
+      justify-content: space-around;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center; }
+      #contact #footer1 .container-contact .contact1,
+      #contact #footer1 .container-contact #popup {
+        font-family: "PT Mono", monospace;
+        font-size: 1em;
+        padding: 0.5em 0.5em;
+        border-radius: 10px 10px;
+        -webkit-transition: 0.5s;
+        -o-transition: 0.5s;
+        transition: 0.5s; }
+      #contact #footer1 .container-contact #popup:hover {
+        -webkit-transform: scaleX(1.2);
+        -ms-transform: scaleX(1.2);
+        transform: scaleX(1.2);
+        -webkit-transition: 0.5s;
+        -o-transition: 0.5s;
+        transition: 0.5s;
+        border-radius: 5px; }
+      #contact #footer1 .container-contact .contact2 p {
+        width: 60%;
+        margin-left: 50%;
+        line-height: 1.9em;
+        font-family: calibri;
+        letter-spacing: 1px;
+        color: #fff; }
+        #contact #footer1 .container-contact .contact2 p .fas {
+          padding-right: 5px; }
+    #contact #footer1 span {
+      margin-bottom: 2px;
+      position: relative;
+      padding-top: 0.5em;
+      left: 45%;
+      color: #fff; }
+  #contact #abc {
+    width: 100%;
+    height: 100%;
+    opacity: 0.95;
+    top: 0;
+    left: 0;
+    display: none;
+    overflow: auto; }
+  #contact div#popupContact {
+    position: absolute;
+    left: 50%;
+    top: 17%;
+    margin-left: -12em;
+    font-family: calibri; }
+  #contact form {
+    max-width: 45%;
+    min-width: 40%;
+    padding: 10px 50px;
+    border: 1px solid rgba(29, 75, 225, 0.863);
+    border-radius: 10px;
+    background-color: #fff; }
+    #contact form a {
+      text-decoration: none;
+      color: rgba(29, 75, 225, 0.863);
+      top: 1%; }
+  #contact h2 {
+    padding: 1.4em 2.1em;
+    margin: -0.3em -2em;
+    text-align: center; }
+  #contact hr {
+    margin-top: 0.4em; }
+  #contact input[type="text"] {
+    width: 82%;
+    padding: 10px;
+    margin-top: 2em;
+    border: 1px solid #ccc;
+    padding-left: 3em;
+    font-size: 1em;
+    font-family: calibri; }
+  #contact textarea {
+    width: 82%;
+    height: 4em;
+    padding: 1em;
+    resize: none;
+    margin-top: 3em;
+    border: 1px solid #ccc;
+    padding-left: 2em;
+    font-size: 1.1em;
+    font-family: calibri;
+    margin-bottom: 2em; }
+  #contact #submit {
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    background-color: rgba(29, 75, 225, 0.863);
+    color: #fff;
+    padding: 10px 10px;
+    font-size: 1.3em;
+    cursor: pointer;
+    border-radius: 5px; }
