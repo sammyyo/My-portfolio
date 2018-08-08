@@ -1,5 +1,4 @@
 #myexperiences {
-  position: relative;
   background: url("../images/About-me.png") no-repeat;
   background-size: 100% 100%;
   .experiences {
@@ -95,6 +94,7 @@
         font-size: 1.5em;
       }
       .experience0 {
+        margin: 0;
         .experience1 {
           margin-left: 14%;
           padding-left: 1.4em;
@@ -105,12 +105,49 @@
         .experience1,
         .experiences2 {
           strong {
-            line-height: 1.1em;
+            line-height: 1em;
             padding: 0.3em 0 0 1em;
             font-size: 0.7em;
           }
           p {
-            line-height: 1.2em;
+            line-height: 1.1em;
+            font-size: 0.9em;
+            padding-left: 1em;
+            line-height: 1.7em;
+            letter-spacing: normal;
+          }
+          time {
+            font-size: 1.2em;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and(max-width: 425px) {
+  #myexperiences {
+    .experiences {
+      h1 {
+        padding-top: 1.4em;
+        font-size: 1.4em;
+      }
+      .experience0 {
+        width: 0 auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        .experience1,
+        .experiences2 {
+          height: 10em;
+          margin: 0 10% 0 14%;
+          padding-left: 1em;
+          strong {
+            line-height: 0.7em;
+            font-size: 0.7em;
+          }
+          p {
+            line-height: 0.9em;
           }
           time {
             font-size: 1.2em;

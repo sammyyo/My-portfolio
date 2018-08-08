@@ -239,10 +239,12 @@
       display: block;
       margin: 0;
       font-size: 0.8em; }
-    #header-page .bar1 {
-      width: 2.3em;
-      height: 5px;
-      margin: 4px 1em 1.5em 0; }
+    #header-page .bar0 {
+      margin-bottom: 8px; }
+      #header-page .bar0 .bar1 {
+        width: 2.3em;
+        height: 4px;
+        margin: 4px 1em 1.5em 0; }
   #Intro-page {
     background-size: 100% 100%; }
     #Intro-page .main-sam {
@@ -336,7 +338,6 @@
       -webkit-box-align: center;
       -ms-flex-align: center;
       align-items: center; }
-      #contact #footer1 .container-contact .contact1,
       #contact #footer1 .container-contact #popup {
         font-family: "PT Mono", monospace;
         font-size: 1em;
@@ -429,8 +430,77 @@
     cursor: pointer;
     border-radius: 5px; }
 
+@media screen and (max-width: 1024px) {
+  #contact #main-footer {
+    margin: 10em 0 10em 0;
+    height: 25%; } }
+
+@media screen and (max-width: 768px) {
+  #contact #main-footer {
+    margin: 12em 0 12em 0;
+    height: 25%; }
+    #contact #main-footer p {
+      width: 50%;
+      margin-left: 1em;
+      line-height: 1.3em; } }
+
+@media screen and (max-width: 425px) {
+  #contact #main-footer {
+    margin: 6m 0 2em 0;
+    height: 20%;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box; }
+    #contact #main-footer p {
+      width: 100%;
+      margin: 1em 2em 0 2em;
+      line-height: 1.2em;
+      font-size: 1em; }
+    #contact #main-footer .panel-button5 {
+      display: none; }
+  #contact #footer1 .container-contact {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center; }
+    #contact #footer1 .container-contact #popup {
+      font-size: 1em;
+      padding: 0.5em 0.5em;
+      border-radius: 10px 10px;
+      -webkit-transition: 0.5s;
+      -o-transition: 0.5s;
+      transition: 0.5s; }
+    #contact #footer1 .container-contact .contact2 p {
+      width: 60%;
+      margin-left: 20%;
+      line-height: 1.9em;
+      letter-spacing: -1px; }
+      #contact #footer1 .container-contact .contact2 p .fas {
+        padding-right: 3px; }
+  #contact #footer1 span {
+    left: 30%; }
+  #contact div#popupContact {
+    position: absolute;
+    left: 65%; }
+  #contact input[type="text"] {
+    width: 82%;
+    padding: 10px;
+    margin-top: 2em;
+    padding-left: 1em;
+    font-size: 1em; }
+  #contact textarea {
+    padding-left: 1em;
+    font-size: 1em;
+    margin-bottom: 2em; }
+  #contact #submit {
+    padding: 10px 10px;
+    font-size: 1em;
+    border-radius: 5px; } }
+
 #myexperiences {
-  position: relative;
   background: url("../images/About-me.png") no-repeat;
   background-size: 100% 100%; }
   #myexperiences .experiences {
@@ -512,22 +582,60 @@
   #myexperiences .experiences h1 {
     padding-top: 1.5em;
     font-size: 1.5em; }
-  #myexperiences .experiences .experience0 .experience1 {
-    margin-left: 14%;
-    padding-left: 1.4em; }
-  #myexperiences .experiences .experience0 .experiences2 {
-    margin: 0 1% 0 0; }
-  #myexperiences .experiences .experience0 .experience1 strong,
-  #myexperiences .experiences .experience0 .experiences2 strong {
-    line-height: 1.1em;
-    padding: 0.3em 0 0 1em;
-    font-size: 0.7em; }
-  #myexperiences .experiences .experience0 .experience1 p,
-  #myexperiences .experiences .experience0 .experiences2 p {
-    line-height: 1.2em; }
-  #myexperiences .experiences .experience0 .experience1 time,
-  #myexperiences .experiences .experience0 .experiences2 time {
-    font-size: 1.2em; } }
+  #myexperiences .experiences .experience0 {
+    margin: 0; }
+    #myexperiences .experiences .experience0 .experience1 {
+      margin-left: 14%;
+      padding-left: 1.4em; }
+    #myexperiences .experiences .experience0 .experiences2 {
+      margin: 0 1% 0 0; }
+    #myexperiences .experiences .experience0 .experience1 strong,
+    #myexperiences .experiences .experience0 .experiences2 strong {
+      line-height: 1em;
+      padding: 0.3em 0 0 1em;
+      font-size: 0.7em; }
+    #myexperiences .experiences .experience0 .experience1 p,
+    #myexperiences .experiences .experience0 .experiences2 p {
+      line-height: 1.1em;
+      font-size: 0.9em;
+      padding-left: 1em;
+      line-height: 1.7em;
+      letter-spacing: normal; }
+    #myexperiences .experiences .experience0 .experience1 time,
+    #myexperiences .experiences .experience0 .experiences2 time {
+      font-size: 1.2em; } }
+
+@media screen and (max-width: 425px) {
+  #myexperiences .experiences h1 {
+    padding-top: 1.4em;
+    font-size: 1.4em; }
+  #myexperiences .experiences .experience0 {
+    width: 0 auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end; }
+    #myexperiences .experiences .experience0 .experience1,
+    #myexperiences .experiences .experience0 .experiences2 {
+      height: 10em;
+      margin: 0 10% 0 14%;
+      padding-left: 1em; }
+      #myexperiences .experiences .experience0 .experience1 strong,
+      #myexperiences .experiences .experience0 .experiences2 strong {
+        line-height: 0.7em;
+        font-size: 0.7em; }
+      #myexperiences .experiences .experience0 .experience1 p,
+      #myexperiences .experiences .experience0 .experiences2 p {
+        line-height: 0.9em; }
+      #myexperiences .experiences .experience0 .experience1 time,
+      #myexperiences .experiences .experience0 .experiences2 time {
+        font-size: 1.2em; } }
 
 #myskils-intro {
   position: relative;

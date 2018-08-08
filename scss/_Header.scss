@@ -267,10 +267,13 @@ $headerBg: rgba(29, 75, 225, 0.863);
       margin: 0;
       font-size: 0.8em;
     }
-    .bar1 {
-      width: 2.3em;
-      height: 5px;
-      margin: 4px 1em 1.5em 0;
+    .bar0 {
+      margin-bottom: 8px;
+      .bar1 {
+        width: 2.3em;
+        height: 4px;
+        margin: 4px 1em 1.5em 0;
+      }
     }
   }
 

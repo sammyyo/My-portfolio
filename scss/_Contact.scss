@@ -49,7 +49,6 @@
       display: flex;
       justify-content: space-around;
       align-items: center;
-      .contact1,
       #popup {
         font-family: "PT Mono", monospace;
         font-size: 1em;
@@ -62,6 +61,7 @@
         transition: 0.5s;
         border-radius: 5px;
       }
+
       .contact2 p {
         width: 60%;
         margin-left: 50%;
@@ -150,5 +150,99 @@
     font-size: 1.3em;
     cursor: pointer;
     border-radius: 5px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  #contact {
+    #main-footer {
+      margin: 10em 0 10em 0;
+      height: 25%;
+    }
+  }
+}
+@media screen and (max-width: 768px) {
+  #contact {
+    #main-footer {
+      margin: 12em 0 12em 0;
+      height: 25%;
+      p {
+        width: 50%;
+        margin-left: 1em;
+        line-height: 1.3em;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 425px) {
+  #contact {
+    #main-footer {
+      margin: 6m 0 2em 0;
+      height: 20%;
+      box-sizing: border-box;
+
+      p {
+        width: 100%;
+        margin: 1em 2em 0 2em;
+        line-height: 1.2em;
+        font-size: 1em;
+      }
+
+      .panel-button5 {
+        display: none;
+      }
+    }
+    #footer1 {
+      .container-contact {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        #popup {
+          font-size: 1em;
+          padding: 0.5em 0.5em;
+          border-radius: 10px 10px;
+          transition: 0.5s;
+        }
+        .contact2 p {
+          width: 60%;
+          margin-left: 20%;
+          line-height: 1.9em;
+
+          letter-spacing: -1px;
+
+          .fas {
+            padding-right: 3px;
+          }
+        }
+      }
+      span {
+        left: 30%;
+      }
+    }
+
+    div#popupContact {
+      position: absolute;
+      left: 65%;
+    }
+
+    input[type="text"] {
+      width: 82%;
+      padding: 10px;
+      margin-top: 2em;
+
+      padding-left: 1em;
+      font-size: 1em;
+    }
+    textarea {
+      padding-left: 1em;
+      font-size: 1em;
+      margin-bottom: 2em;
+    }
+    #submit {
+      padding: 10px 10px;
+      font-size: 1em;
+      border-radius: 5px;
+    }
   }
 }
