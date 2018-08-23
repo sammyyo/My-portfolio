@@ -677,13 +677,14 @@
       -ms-flex-align: center;
       align-items: center; }
       #myskils-intro > .skils .myskilsIntro .about-me1 {
-        width: 40%;
+        width: 50%;
         margin: 7em 25% 0 0; }
         #myskils-intro > .skils .myskilsIntro .about-me1 p {
           margin: 0;
           padding: 0;
-          font-size: 1.1em;
-          text-align: justify; }
+          font-size: 1.4em;
+          text-align: justify;
+          line-height: 1.5em; }
           #myskils-intro > .skils .myskilsIntro .about-me1 p a {
             text-decoration: underline;
             color: #000000; }
@@ -726,7 +727,8 @@
             height: 1em;
             display: block;
             margin-right: 1.7em;
-            color: #fff; }
+            color: #fff;
+            text-align: left; }
           #myskils-intro > .skils .mySkills .mySkills-group .skillItem .skillBar {
             width: 70%;
             height: 1em;
