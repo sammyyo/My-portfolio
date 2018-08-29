@@ -1,6 +1,8 @@
 #myexperiences {
-  background: url("../images/About-me.png") no-repeat;
-  background-size: 100% 100%;
+  // background: url("../images/About-me.png") no-repeat;
+  // background-size: 100% 100%;
+  // height: 100%;
+
   .experiences {
     margin: 0;
     padding-top: 3.2%;
@@ -13,27 +15,47 @@
       color: #fff;
     }
     .experience0 {
+      background: rgba(29, 75, 225, 0.863);
       display: flex;
       flex-direction: row;
       justify-content: space-between;
       margin-top: 0.6em;
+      align-items: center;
+      height: 100%;
       .experience1 {
         margin-left: 10%;
         padding-left: 5em;
+        // display: flex;
+        // flex-direction: column;
+        // align-items: center;
+        // justify-content: center;
       }
       .experiences2 {
-        padding-right: 5em;
+        background: rgba(29, 75, 225, 0.863);
+        padding: 5%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        strong {
+          width: 70% !important;
+        }
+        p {
+          width: 70% !important;
+        }
       }
       .experience1,
       .experiences2 {
         box-sizing: border-box;
         strong {
+          width: 50%;
           line-height: 1.7em;
           padding: 0.3em 0 0 1em;
           color: #fff;
           font-size: 0.9em;
         }
         p {
+          width: 50%;
           padding-left: 1em;
           color: #fff;
           line-height: 1.7em;
