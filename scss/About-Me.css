@@ -1,0 +1,203 @@
+#myexperiences .experiences {
+  margin: 0;
+  padding-top: 3.2%;
+}
+
+#myexperiences .experiences h1 {
+  padding: 5px;
+  font-size: 2em;
+  margin: 0;
+  font-family: calibri;
+  text-align: center;
+  color: #fff;
+}
+
+#myexperiences .experiences .experience0 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 0.6em;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100%;
+}
+
+#myexperiences .experiences .experience0 .experience1 {
+  margin-left: 10%;
+  padding-left: 5em;
+}
+
+#myexperiences .experiences .experience0 .experiences2 {
+  padding: 5%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#myexperiences .experiences .experience0 .experiences2 strong {
+  width: 70% !important;
+}
+
+#myexperiences .experiences .experience0 .experiences2 p {
+  width: 70% !important;
+}
+
+#myexperiences .experiences .experience0 .experience1,
+#myexperiences .experiences .experience0 .experiences2 {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+#myexperiences .experiences .experience0 .experience1 strong,
+#myexperiences .experiences .experience0 .experiences2 strong {
+  width: 50%;
+  line-height: 1.7em;
+  padding: 0.3em 0 0 1em;
+  color: #fff;
+  font-size: 0.9em;
+}
+
+#myexperiences .experiences .experience0 .experience1 p,
+#myexperiences .experiences .experience0 .experiences2 p {
+  width: 50%;
+  padding-left: 1em;
+  color: #fff;
+  line-height: 1.7em;
+  font-family: calibri;
+  letter-spacing: 1px;
+}
+
+#myexperiences .experiences .experience0 .experience1 span,
+#myexperiences .experiences .experience0 .experiences2 span {
+  color: #fff;
+}
+
+#myexperiences .experiences .experience0 .experience1 time,
+#myexperiences .experiences .experience0 .experiences2 time {
+  font-size: 1.1em;
+}
+
+@media screen and (max-width: 1024px) {
+  #myexperiences .experiences {
+    padding-top: 0;
+    width: 100%;
+  }
+  #myexperiences .experiences h1 {
+    padding-top: 2em;
+    font-size: 1.6em;
+    margin: 0;
+  }
+  #myexperiences .experiences .experience0 {
+    margin: 0;
+  }
+  #myexperiences .experiences .experience0 .experience1 {
+    margin-left: 8%;
+    padding-left: 5em;
+  }
+  #myexperiences .experiences .experience0 .experiences2 {
+    margin: 0 7% 0 1.5em;
+  }
+  #myexperiences .experiences .experience0 .experience1 strong,
+  #myexperiences .experiences .experience0 .experiences2 strong {
+    line-height: 1.5em;
+    padding: 0.3em 0 0 1em;
+    font-size: 0.7em;
+  }
+  #myexperiences .experiences .experience0 .experience1 p,
+  #myexperiences .experiences .experience0 .experiences2 p {
+    line-height: 1.5em;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #myexperiences .experiences h1 {
+    padding-top: 1.5em;
+    font-size: 1.5em;
+  }
+  #myexperiences .experiences .experience0 {
+    margin: 0;
+  }
+  #myexperiences .experiences .experience0 .experience1 {
+    margin-left: 14%;
+    padding-left: 1.4em;
+  }
+  #myexperiences .experiences .experience0 .experiences2 {
+    margin: 0 1% 0 0;
+  }
+  #myexperiences .experiences .experience0 .experience1 strong,
+  #myexperiences .experiences .experience0 .experiences2 strong {
+    line-height: 1em;
+    padding: 0.3em 0 0 1em;
+    font-size: 0.7em;
+  }
+  #myexperiences .experiences .experience0 .experience1 p,
+  #myexperiences .experiences .experience0 .experiences2 p {
+    line-height: 1.1em;
+    font-size: 0.9em;
+    padding-left: 1em;
+    line-height: 1.7em;
+    letter-spacing: normal;
+  }
+  #myexperiences .experiences .experience0 .experience1 time,
+  #myexperiences .experiences .experience0 .experiences2 time {
+    font-size: 1.2em;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  #myexperiences .experiences h1 {
+    padding-top: 1.4em;
+    font-size: 1.4em;
+  }
+  #myexperiences .experiences .experience0 {
+    width: 0 auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+  }
+  #myexperiences .experiences .experience0 .experience1,
+  #myexperiences .experiences .experience0 .experiences2 {
+    height: 10em;
+    margin: 0 10% 0 14%;
+    padding-left: 1em;
+  }
+  #myexperiences .experiences .experience0 .experience1 strong,
+  #myexperiences .experiences .experience0 .experiences2 strong {
+    line-height: 0.7em;
+    font-size: 0.7em;
+  }
+  #myexperiences .experiences .experience0 .experience1 p,
+  #myexperiences .experiences .experience0 .experiences2 p {
+    line-height: 0.9em;
+  }
+  #myexperiences .experiences .experience0 .experience1 time,
+  #myexperiences .experiences .experience0 .experiences2 time {
+    font-size: 1.2em;
+  }
+}
+/*# sourceMappingURL=About-Me.css.map */

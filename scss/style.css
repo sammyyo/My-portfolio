@@ -1,0 +1,1125 @@
+#header-page {
+  position: relative;
+  padding: 0.5em 0 0.5em 0;
+  border-bottom: 1px solid black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 100;
+  background: url("../images/HeaderBg.png") no-repeat;
+}
+
+#header-page .logo {
+  margin-left: 4.3%;
+  font-size: 1.8em;
+  font-family: calibri;
+  color: #fff;
+  text-decoration: none;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+#header-page .logo:hover {
+  -webkit-transform: scaleX(1.2);
+          transform: scaleX(1.2);
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  border-radius: 5px;
+}
+
+#header-page .main-nav ul li {
+  margin-right: 3em;
+  display: inline-block;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+#header-page .main-nav ul li:hover {
+  -webkit-transform: scaleX(1.2);
+          transform: scaleX(1.2);
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  background-color: rgba(57, 65, 95, 0.863);
+  border-radius: 5px;
+}
+
+#header-page ul li a {
+  text-decoration: none;
+  font-family: "PT Mono", monospace;
+  font-size: 1.5em;
+  margin: 2em;
+  color: #fff;
+}
+
+#header-page .sidenav {
+  height: 25%;
+  width: 0;
+  position: fixed;
+  z-index: 100;
+  top: 0;
+  right: 0;
+  overflow-x: hidden;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  margin: 0.7em 0;
+}
+
+#header-page .sidenav .sidenav a {
+  margin: 0 0.7em;
+  padding: 0.5em 0.5em 0.5em 2.7em;
+  text-decoration: none;
+  display: block;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+#header-page .sidenav img {
+  width: 35px;
+  height: 35px;
+}
+
+#header-page .bar1 {
+  text-decoration: underline;
+  width: 2.3em;
+  height: 5px;
+  margin: 6px 1em 1.5em 0;
+  color: #fff;
+}
+
+#header-page .bar1 p {
+  font-size: 1.4em;
+  color: #fff;
+}
+
+#Intro-page {
+  position: relative;
+  background: url("../images/HeaderBg1.png") no-repeat;
+  background-size: 100% 55%;
+}
+
+#Intro-page .main-sam {
+  width: 50%;
+  position: absolute;
+  top: 43.5%;
+  left: 20%;
+}
+
+#Intro-page .main-sam .p1 {
+  margin: 0;
+  position: absolute;
+  bottom: 50%;
+  left: 20%;
+  font-size: 2.5em;
+  font-family: calibri;
+  -webkit-transform: skewY(-9deg);
+          transform: skewY(-9deg);
+  color: #fff;
+}
+
+#Intro-page .main-sam .p2 {
+  margin: 0;
+  position: absolute;
+  -webkit-transform: skewY(-10deg);
+          transform: skewY(-10deg);
+  top: 48%;
+  left: 20%;
+  font-size: 2.5em;
+  font-family: calibri;
+}
+
+#Intro-page .images {
+  float: right;
+  margin: 10% 15% 0 0;
+  top: 50%;
+  right: 50%;
+}
+
+#Intro-page .images img {
+  overflow: hidden;
+  border-radius: 50%;
+  border: 4px solid #fff;
+  width: 70%;
+}
+
+@media screen and (max-width: 1024px) {
+  #header-page {
+    width: 100%;
+    padding: 0.5em 0 0.5em 0;
+  }
+  #header-page .logo {
+    margin-left: 2%;
+    font-size: 1.7em;
+  }
+  #header-page .main-nav ul li {
+    margin-right: 3em;
+  }
+  #header-page ul li a {
+    font-size: 1.5em;
+    margin: 0;
+  }
+  #header-page .sidenav {
+    height: 25%;
+    width: 0;
+    top: 0;
+    right: 1em;
+    margin: 0.7em 0;
+  }
+  #header-page .sidenav .sidenav a {
+    margin: 0 3em;
+    padding: 0.5em 0.5em 0.5em 2.7em;
+  }
+  #header-page .sidenav img {
+    width: 30px;
+    height: 30px;
+  }
+  #header-page .bar1 p {
+    font-size: 1.6em;
+  }
+  #Intro-page .main-sam {
+    top: 47.5%;
+    left: 5%;
+  }
+  #Intro-page .main-sam .p1 {
+    bottom: 50%;
+    left: 20%;
+    -webkit-transform: skewY(-12deg);
+            transform: skewY(-12deg);
+  }
+  #Intro-page .main-sam .p2 {
+    -webkit-transform: skewY(-13deg);
+            transform: skewY(-13deg);
+    top: 48%;
+    left: 20%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #header-page {
+    padding: 0;
+  }
+  #header-page .logo {
+    margin-left: 1%;
+    font-size: 1.7em;
+  }
+  #header-page .main-nav ul li {
+    margin-right: 1em;
+    font-size: 0.9em;
+  }
+  #header-page .sidenav {
+    height: 30%;
+    width: 0;
+    padding-top: 1.7em;
+    top: 0;
+    right: 0;
+  }
+  #Intro-page {
+    background-size: 100% 95%;
+  }
+  #Intro-page .main-sam {
+    top: 76.5%;
+    left: 10%;
+  }
+  #Intro-page .main-sam .p1 {
+    bottom: 48%;
+    left: 20%;
+    -webkit-transform: skewY(-26deg);
+            transform: skewY(-26deg);
+  }
+  #Intro-page .main-sam .p2 {
+    -webkit-transform: skewY(-29deg);
+            transform: skewY(-29deg);
+    top: 72%;
+    left: 20%;
+  }
+  #Intro-page .images {
+    margin: 10% 12%;
+    top: 30%;
+    right: 50%;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  #header-page {
+    width: 100%;
+  }
+  #header-page .logo {
+    margin-left: 1em;
+    font-size: 1.3em;
+    width: 100%;
+  }
+  #header-page .burger-nav {
+    margin-right: 1px;
+  }
+  #header-page .burger-nav .bar {
+    width: 2em;
+    height: 4px;
+    background-color: #fff;
+    margin: 0.3em 0;
+    cursor: pointer;
+  }
+  #header-page .main-nav ul {
+    overflow: hidden;
+    background: rgba(29, 75, 225, 0.863);
+    height: 0;
+    display: block;
+  }
+  #header-page .main-nav ul.open {
+    height: auto;
+  }
+  #header-page .main-nav ul li {
+    text-align: center;
+    height: 10%;
+    margin-left: 0.4em;
+  }
+  #header-page .main-nav ul li a {
+    border-bottom: 2px;
+    display: block;
+    margin: 0;
+    font-size: 0.8em;
+  }
+  #header-page .bar0 {
+    margin-bottom: 8px;
+  }
+  #header-page .bar0 .bar1 {
+    width: 2.3em;
+    height: 4px;
+    margin: 4px 1em 1.5em 0;
+  }
+  #Intro-page {
+    background-size: 100% 100%;
+  }
+  #Intro-page .main-sam {
+    width: 90%;
+    top: 65%;
+  }
+  #Intro-page .main-sam .p1 {
+    bottom: 40%;
+    left: 3%;
+    -webkit-transform: skewY(0);
+            transform: skewY(0);
+    font-size: 1.7em;
+  }
+  #Intro-page .main-sam .p2 {
+    -webkit-transform: skewY(0);
+            transform: skewY(0);
+    left: 3%;
+    font-size: 1.7em;
+    color: #fff;
+  }
+  #Intro-page .images {
+    margin: 25% 0 0 15%;
+    top: 50%;
+    right: 50%;
+  }
+  #Intro-page .images img {
+    width: 80%;
+  }
+}
+
+#contact {
+  width: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+#contact #main-footer {
+  margin: 8em 3em;
+  height: 35%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#contact #main-footer p {
+  width: 50%;
+  margin-right: 4em;
+  line-height: 1.9em;
+  font-size: 1.2em;
+  font-family: calibri;
+}
+
+#contact #main-footer p a {
+  text-decoration: underline;
+  color: #000000;
+  cursor: pointer;
+}
+
+#contact #main-footer p a:hover {
+  color: #252222;
+}
+
+#contact #main-footer .panel-button5 {
+  text-decoration: none;
+  font-family: "PT Mono", monospace;
+  font-size: 1.4em;
+  margin: 3em;
+  padding: 0.5em 0.5em;
+  background: rgba(29, 75, 225, 0.863);
+  color: #fff;
+  border-radius: 10px 10px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+#contact #main-footer .panel-button5:hover {
+  -webkit-transform: scaleX(1.2);
+          transform: scaleX(1.2);
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  border-radius: 5px;
+}
+
+#contact #footer1 {
+  background: url("../images/footer.png");
+  background-size: 100% 100%;
+}
+
+#contact #footer1 .container-contact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#contact #footer1 .container-contact #popup {
+  font-family: "PT Mono", monospace;
+  font-size: 1em;
+  padding: 0.5em 0.5em;
+  border-radius: 10px 10px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+#contact #footer1 .container-contact #popup:hover {
+  -webkit-transform: scaleX(1.2);
+          transform: scaleX(1.2);
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  border-radius: 5px;
+}
+
+#contact #footer1 .container-contact .contact2 p {
+  width: 60%;
+  margin-left: 50%;
+  line-height: 1.9em;
+  font-family: calibri;
+  letter-spacing: 1px;
+  color: #fff;
+}
+
+#contact #footer1 .container-contact .contact2 p .fas {
+  padding-right: 5px;
+}
+
+#contact #footer1 span {
+  margin-bottom: 2px;
+  position: relative;
+  padding-top: 0.5em;
+  left: 45%;
+  color: #fff;
+}
+
+#contact #abc {
+  width: 100%;
+  height: 100%;
+  opacity: 0.95;
+  top: 0;
+  left: 0;
+  display: none;
+  overflow: auto;
+}
+
+#contact div#popupContact {
+  position: absolute;
+  left: 50%;
+  top: 17%;
+  margin-left: -12em;
+  font-family: calibri;
+}
+
+#contact form {
+  max-width: 45%;
+  min-width: 40%;
+  padding: 10px 50px;
+  border: 1px solid rgba(29, 75, 225, 0.863);
+  border-radius: 10px;
+  background-color: #fff;
+}
+
+#contact form a {
+  text-decoration: none;
+  color: rgba(29, 75, 225, 0.863);
+  top: 1%;
+}
+
+#contact h2 {
+  padding: 1.4em 2.1em;
+  margin: -0.3em -2em;
+  text-align: center;
+}
+
+#contact hr {
+  margin-top: 0.4em;
+}
+
+#contact input[type="text"] {
+  width: 82%;
+  padding: 10px;
+  margin-top: 2em;
+  border: 1px solid #ccc;
+  padding-left: 3em;
+  font-size: 1em;
+  font-family: calibri;
+}
+
+#contact textarea {
+  width: 82%;
+  height: 4em;
+  padding: 1em;
+  resize: none;
+  margin-top: 3em;
+  border: 1px solid #ccc;
+  padding-left: 2em;
+  font-size: 1.1em;
+  font-family: calibri;
+  margin-bottom: 2em;
+}
+
+#contact #submit {
+  text-decoration: none;
+  text-align: center;
+  display: block;
+  background-color: rgba(29, 75, 225, 0.863);
+  color: #fff;
+  padding: 10px 10px;
+  font-size: 1.3em;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+@media screen and (max-width: 1024px) {
+  #contact #main-footer {
+    margin: 10em 0 10em 0;
+    height: 25%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #contact #main-footer {
+    margin: 12em 0 12em 0;
+    height: 25%;
+  }
+  #contact #main-footer p {
+    width: 50%;
+    margin-left: 1em;
+    line-height: 1.3em;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  #contact #main-footer {
+    margin: 6m 0 2em 0;
+    height: 20%;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+  #contact #main-footer p {
+    width: 100%;
+    margin: 1em 2em 0 2em;
+    line-height: 1.2em;
+    font-size: 1em;
+  }
+  #contact #main-footer .panel-button5 {
+    display: none;
+  }
+  #contact #footer1 .container-contact {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  #contact #footer1 .container-contact #popup {
+    font-size: 1em;
+    padding: 0.5em 0.5em;
+    border-radius: 10px 10px;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+  }
+  #contact #footer1 .container-contact .contact2 p {
+    width: 60%;
+    margin-left: 20%;
+    line-height: 1.9em;
+    letter-spacing: -1px;
+  }
+  #contact #footer1 .container-contact .contact2 p .fas {
+    padding-right: 3px;
+  }
+  #contact #footer1 span {
+    left: 30%;
+  }
+  #contact div#popupContact {
+    position: absolute;
+    left: 65%;
+  }
+  #contact input[type="text"] {
+    width: 82%;
+    padding: 10px;
+    margin-top: 2em;
+    padding-left: 1em;
+    font-size: 1em;
+  }
+  #contact textarea {
+    padding-left: 1em;
+    font-size: 1em;
+    margin-bottom: 2em;
+  }
+  #contact #submit {
+    padding: 10px 10px;
+    font-size: 1em;
+    border-radius: 5px;
+  }
+}
+
+#myexperiences .experiences {
+  margin: 0;
+  padding-top: 3.2%;
+}
+
+#myexperiences .experiences h1 {
+  padding: 5px;
+  font-size: 2em;
+  margin: 0;
+  font-family: calibri;
+  text-align: center;
+  color: #fff;
+}
+
+#myexperiences .experiences .experience0 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 0.6em;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100%;
+}
+
+#myexperiences .experiences .experience0 .experience1 {
+  margin-left: 10%;
+  padding-left: 5em;
+}
+
+#myexperiences .experiences .experience0 .experiences2 {
+  padding: 5%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#myexperiences .experiences .experience0 .experiences2 strong {
+  width: 70% !important;
+}
+
+#myexperiences .experiences .experience0 .experiences2 p {
+  width: 70% !important;
+}
+
+#myexperiences .experiences .experience0 .experience1,
+#myexperiences .experiences .experience0 .experiences2 {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+#myexperiences .experiences .experience0 .experience1 strong,
+#myexperiences .experiences .experience0 .experiences2 strong {
+  width: 50%;
+  line-height: 1.7em;
+  padding: 0.3em 0 0 1em;
+  color: #fff;
+  font-size: 0.9em;
+}
+
+#myexperiences .experiences .experience0 .experience1 p,
+#myexperiences .experiences .experience0 .experiences2 p {
+  width: 50%;
+  padding-left: 1em;
+  color: #fff;
+  line-height: 1.7em;
+  font-family: calibri;
+  letter-spacing: 1px;
+}
+
+#myexperiences .experiences .experience0 .experience1 span,
+#myexperiences .experiences .experience0 .experiences2 span {
+  color: #fff;
+}
+
+#myexperiences .experiences .experience0 .experience1 time,
+#myexperiences .experiences .experience0 .experiences2 time {
+  font-size: 1.1em;
+}
+
+@media screen and (max-width: 1024px) {
+  #myexperiences .experiences {
+    padding-top: 0;
+    width: 100%;
+  }
+  #myexperiences .experiences h1 {
+    padding-top: 2em;
+    font-size: 1.6em;
+    margin: 0;
+  }
+  #myexperiences .experiences .experience0 {
+    margin: 0;
+  }
+  #myexperiences .experiences .experience0 .experience1 {
+    margin-left: 8%;
+    padding-left: 5em;
+  }
+  #myexperiences .experiences .experience0 .experiences2 {
+    margin: 0 7% 0 1.5em;
+  }
+  #myexperiences .experiences .experience0 .experience1 strong,
+  #myexperiences .experiences .experience0 .experiences2 strong {
+    line-height: 1.5em;
+    padding: 0.3em 0 0 1em;
+    font-size: 0.7em;
+  }
+  #myexperiences .experiences .experience0 .experience1 p,
+  #myexperiences .experiences .experience0 .experiences2 p {
+    line-height: 1.5em;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #myexperiences .experiences h1 {
+    padding-top: 1.5em;
+    font-size: 1.5em;
+  }
+  #myexperiences .experiences .experience0 {
+    margin: 0;
+  }
+  #myexperiences .experiences .experience0 .experience1 {
+    margin-left: 14%;
+    padding-left: 1.4em;
+  }
+  #myexperiences .experiences .experience0 .experiences2 {
+    margin: 0 1% 0 0;
+  }
+  #myexperiences .experiences .experience0 .experience1 strong,
+  #myexperiences .experiences .experience0 .experiences2 strong {
+    line-height: 1em;
+    padding: 0.3em 0 0 1em;
+    font-size: 0.7em;
+  }
+  #myexperiences .experiences .experience0 .experience1 p,
+  #myexperiences .experiences .experience0 .experiences2 p {
+    line-height: 1.1em;
+    font-size: 0.9em;
+    padding-left: 1em;
+    line-height: 1.7em;
+    letter-spacing: normal;
+  }
+  #myexperiences .experiences .experience0 .experience1 time,
+  #myexperiences .experiences .experience0 .experiences2 time {
+    font-size: 1.2em;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  #myexperiences .experiences h1 {
+    padding-top: 1.4em;
+    font-size: 1.4em;
+  }
+  #myexperiences .experiences .experience0 {
+    width: 0 auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+  }
+  #myexperiences .experiences .experience0 .experience1,
+  #myexperiences .experiences .experience0 .experiences2 {
+    height: 10em;
+    margin: 0 10% 0 14%;
+    padding-left: 1em;
+  }
+  #myexperiences .experiences .experience0 .experience1 strong,
+  #myexperiences .experiences .experience0 .experiences2 strong {
+    line-height: 0.7em;
+    font-size: 0.7em;
+  }
+  #myexperiences .experiences .experience0 .experience1 p,
+  #myexperiences .experiences .experience0 .experiences2 p {
+    line-height: 0.9em;
+  }
+  #myexperiences .experiences .experience0 .experience1 time,
+  #myexperiences .experiences .experience0 .experiences2 time {
+    font-size: 1.2em;
+  }
+}
+
+#myskils-intro {
+  position: relative;
+  background: url("../images/Skils.png") no-repeat;
+  background-position: right;
+  background-size: 77.5% 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#myskils-intro > .skils {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#myskils-intro > .skils .myskilsIntro {
+  margin-bottom: 20%;
+  -webkit-box-flex: 3;
+      -ms-flex: 3;
+          flex: 3;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#myskils-intro > .skils .myskilsIntro .about-me1 {
+  width: 50%;
+  margin: 7em 25% 0 0;
+}
+
+#myskils-intro > .skils .myskilsIntro .about-me1 p {
+  margin: 0;
+  padding: 0;
+  font-size: 1.4em;
+  text-align: justify;
+  line-height: 1.5em;
+}
+
+#myskils-intro > .skils .myskilsIntro .about-me1 p a {
+  text-decoration: underline;
+  color: #000000;
+}
+
+#myskils-intro > .skils .myskilsIntro .about-me1 p a:hover {
+  color: #252222;
+}
+
+#myskils-intro > .skils .mySkills {
+  -webkit-box-flex: 2;
+      -ms-flex: 2;
+          flex: 2;
+  text-align: center;
+}
+
+#myskils-intro > .skils .mySkills h1 {
+  margin: 5em 0 1em 0;
+  font-size: 2em;
+  color: white;
+  font-family: calibri;
+  letter-spacing: 3px;
+}
+
+#myskils-intro > .skils .mySkills .mySkills-group {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  width: 75%;
+  height: 60%;
+}
+
+#myskils-intro > .skils .mySkills .mySkills-group .skillItem {
+  width: 100%;
+  height: 3.4em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: flex-end;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+#myskils-intro > .skils .mySkills .mySkills-group .skillItem h2 {
+  height: 1em;
+  display: block;
+  margin-right: 1.7em;
+  color: #fff;
+  text-align: left;
+}
+
+#myskils-intro > .skils .mySkills .mySkills-group .skillItem .skillBar {
+  width: 70%;
+  height: 1em;
+  background: rgba(255, 255, 255, 0.466);
+}
+
+#myskils-intro > .skils .mySkills .mySkills-group .skillItem .skillBar .skillColor {
+  background: #fff;
+  height: 100%;
+  border-radius: 0 10px 10px 0;
+  -webkit-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.4);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.4);
+}
+
+#myskils-intro > .skils .mySkills .mySkills-group .html .skillColor {
+  width: 80%;
+}
+
+#myskils-intro > .skils .mySkills .css .skillColor {
+  width: 70%;
+}
+
+#myskils-intro > .skils .mySkills .Sass .skillColor {
+  background: #fff;
+  width: 80%;
+}
+
+#myskils-intro > .skils .mySkills .Bootstrap .skillColor {
+  background: #fff;
+  width: 70%;
+}
+
+#myskils-intro > .skils .mySkills .Javascript .skillColor {
+  background: #fff;
+  width: 70%;
+}
+
+#myskils-intro > .skils .mySkills .git .skillColor {
+  background: #fff;
+  width: 55%;
+}
+
+@media screen and (max-width: 1024px) {
+  #myskils-intro {
+    background-size: 78% 100%;
+  }
+  #myskils-intro > .skils .mySkills h1 {
+    margin: 3em 0 0.5em 0;
+  }
+  #myskils-intro > .skils .mySkills .mySkills-group {
+    width: 90%;
+    height: 65%;
+  }
+  #myskils-intro > .skils .mySkills .mySkills-group .skillItem h2 {
+    height: 2em;
+    margin: 1em 0.5em 0 0;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #myskils-intro {
+    background-size: 85% 100%;
+  }
+  #myskils-intro > .skils .myskilsIntro {
+    margin-bottom: 40%;
+    -webkit-box-flex: 6;
+        -ms-flex: 6;
+            flex: 6;
+  }
+  #myskils-intro > .skils .myskilsIntro .about-me1 {
+    width: 65%;
+    margin: 7em 20% 0 0;
+  }
+  #myskils-intro > .skils .mySkills {
+    -webkit-box-flex: 7;
+        -ms-flex: 7;
+            flex: 7;
+  }
+  #myskils-intro > .skils .mySkills h1 {
+    margin: 3em 0 0 0;
+  }
+  #myskils-intro > .skils .mySkills .mySkills-group {
+    width: 85%;
+    height: 60%;
+  }
+  #myskils-intro > .skils .mySkills .mySkills-group .skillItem h2 {
+    height: 2.1em;
+    margin: 1em 0.2em 0 0;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  #myskils-intro {
+    position: absolute;
+    background: url("../images/skils425Bg.png") no-repeat;
+    background-position: right;
+    background-size: 100% 100%;
+  }
+  #myskils-intro > .skils {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  #myskils-intro > .skils .myskilsIntro {
+    margin: 25% 0 25% 15%;
+  }
+  #myskils-intro > .skils .myskilsIntro .about-me1 p {
+    margin: 0;
+    padding: 0;
+    font-size: 1em;
+    color: #ffffff;
+  }
+  #myskils-intro > .skils .myskilsIntro .about-me1 p a {
+    color: #ffffff;
+  }
+  #myskils-intro > .skils .mySkills {
+    margin: 0 0 20% 3%;
+    -webkit-box-flex: 9;
+        -ms-flex: 9;
+            flex: 9;
+  }
+  #myskils-intro > .skils .mySkills h1 {
+    margin: 3em 0 0 0;
+    letter-spacing: normal;
+    font-size: 1.5em;
+  }
+  #myskils-intro > .skils .mySkills .mySkills-group {
+    width: 90%;
+    height: 10%;
+  }
+  #myskils-intro > .skils .mySkills .mySkills-group .skillItem {
+    width: 90%;
+    height: 1.7em;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: flex-end;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+  #myskils-intro > .skils .mySkills .mySkills-group .skillItem h2 {
+    font-size: 1.2em;
+    height: 2em;
+    margin: 1em 0.2em 0 0;
+  }
+}
+
+*,
+html {
+  margin: 0;
+  padding: 0;
+}
+
+a:focus,
+button:focus,
+input:focus {
+  outline: none;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  width: 100%;
+  height: 0 auto;
+}
+
+#Intro-page,
+#myskils-intro,
+#myexperiences,
+#contact {
+  margin: 0;
+  height: 100vh;
+  width: 100%;
+}
+
+.dropdown {
+  position: absolute;
+  top: 90%;
+  right: 50%;
+}
+/*# sourceMappingURL=style.css.map */

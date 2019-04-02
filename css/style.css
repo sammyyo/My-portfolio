@@ -510,8 +510,11 @@
     font-family: calibri;
     text-align: center;
     color: #fff; }
+    .experience0{
+      background: rgba(29, 75, 225, 0.863);
+    }
+
   #myexperiences .experiences .experience0 {
-    background: rgba(29, 75, 225, 0.863);
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -531,7 +534,7 @@
       margin-left: 10%;
       padding-left: 5em; }
     #myexperiences .experiences .experience0 .experiences2 {
-      background: rgba(29, 75, 225, 0.863);
+      /*background: rgba(29, 75, 225, 0.863);*/
       padding: 5%;
       display: -webkit-box;
       display: -ms-flexbox;
